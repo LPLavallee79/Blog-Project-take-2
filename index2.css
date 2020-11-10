@@ -1,5 +1,6 @@
 .container {
     display: grid;
+ 
     height: 100%;
     gap: 3px;
     grid-template-columns: repeat(10, 1fr);
@@ -12,6 +13,12 @@
 
 .header{
     grid-area: h;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
 }
 
 .menu{
